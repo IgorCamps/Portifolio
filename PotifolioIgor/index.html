@@ -2,94 +2,67 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="formatacao.css" media="screen" />
-
-    <title>Igor Campos</title>
-
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Portifólio</title>
 </head>
 <body>
-    <header >
-        <nav id="menu">
-            <ul >
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li> 
-                <li>
-                    <a href="#servicos">Serviços</a>
-                </li> 
-
-                <li>
-                    <a href="#rodape">Contato</a>
-                </li>
-            
-            </ul>
-            
-        </nav>
-       
+    <header>
+        <div class="container">
+            <h1 class="logo">Igor Campos</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
+
     <main>
-        <img src="./img/Portifolio.png"  width="100%" height="600px" />
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <p>Olá, eu sou Igor Campos, um entusiasta da tecnologia e desenvolvedor fullstack (começando). 
+                Minha paixão pela criação de soluções digitais me levou a explorar várias tecnologias e frameworks. 
+                Estou constantemente aprendendo e evoluindo minhas habilidades para fornecer os melhores produtos aos meus clientes.
+                Além de desenvolvimento web, também tenho interesse em design de interface do usuário, aprendizado de máquina e desenvolvimento móvel.</p>
+            </div>
+        </section>
 
-        <nav id="sobre">
-            <ul>
-                <li>
-                    <h1>
-                    Sobre mim
-                    </h1>
-                </li>
-
-                <li>
-                    <p>Olá, meu nome é Igor. Sou desenvolvedor fullstack e pretendo desenvolver 
-                    projetos para aumentar meu portifolio, por enquanto estamos em construção!</p>
-                </li>
-            </ul>
-        </nav>
-
-        <nav id="servicos">
-            <ul>
-                <li>
-                     <h1>Serviços</h1>
-                </li>
-                <li>
-                    <h2>Desenvolvimento Web</h2>
-                    <p>Criação de sites responsivos com design moderno</p>                    
-                </li>
-            </ul>
-            <img class="formatImg" src="./img/devweb.png" />
-        </nav>
-        
+        <section id="servicos">
+            <div class="container">
+                <h2>Serviços</h2>
+                <div class="service">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de websites responsivos e modernos utilizando as mais recentes tecnologias web.</p>
+                </div>
+                <div class="service">
+                    <h3>Design de Interface</h3>
+                    <p>Desenvolvimento de interfaces de usuário intuitivas e atraentes para melhorar a experiência do usuário.</p>
+                </div>
+                <div class="service">
+                    <h3>Consultoria em Tecnologia</h3>
+                    <p>Assistência técnica e consultoria para ajudá-lo a encontrar as melhores soluções tecnológicas para o seu negócio.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    
+
     <footer>
-    <nav id="rodape">
-        <ul>
-            <li>
-                <h1>Contato</h1>
-            
-            </li>
-            <li>
-                <p class="formatLin"> __________________</p>
-            </li>
-            <li>
-                <p class="formatContato">Entre em contato pelas redes sociais.</p>
-            </li>
-        </ul>
-    <nav id="icons">
-       
-        <a href="https://www.facebook.com/igor.camposmelo.1" target="_blank"><img src="./img/iconfacebook.png" /></a> 
-            
-        <a href="https://www.instagram.com/igu.cm/" target="_blank"><img  src="./img/iconinstagram.png"/></a> 
-
-        <a href="https://www.linkedin.com/in/igor-campos-abb770210/" target="_blank"><img  src="./img/iconlinkedin.png"/></a> 
-
-    </nav>
-    </nav>
+        <div class="container">
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Entre em contato através das redes sociais ou envie-me um e-mail.</p>
+                <nav id="icons">
+                    <a href="https://www.facebook.com/igor.camposmelo.1" target="_blank"><img src="./img/iconfacebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/igu.cm/" target="_blank"><img src="./img/iconinstagram.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/igor-campos-abb770210/" target="_blank"><img src="./img/iconlinkedin.png" alt="LinkedIn"></a>
+                    <a href="mailto:igorcampos@example.com"><img src="./img/iconemail.png" alt="E-mail"></a>
+                </nav>
+            </section>
+        </div>
     </footer>
-
-    
 </body>
 </html>
