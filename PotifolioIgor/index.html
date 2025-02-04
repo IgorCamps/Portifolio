@@ -3,66 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Portifólio</title>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1 class="logo">Igor Campos</h1>
-            <nav id="menu">
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section id="sobre">
-            <div class="container">
-                <h2>Sobre mim</h2>
-                <p>Olá, eu sou Igor Campos, um entusiasta da tecnologia e desenvolvedor fullstack (começando). 
-                Minha paixão pela criação de soluções digitais me levou a explorar várias tecnologias e frameworks. 
-                Estou constantemente aprendendo e evoluindo minhas habilidades para fornecer os melhores produtos aos meus clientes.
-                Além de desenvolvimento web, também tenho interesse em design de interface do usuário, aprendizado de máquina e desenvolvimento móvel.</p>
-            </div>
-        </section>
+    <section id="sobre">
+        <img src="avatar.png" alt="Minha Foto" class="avatar">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor especializado em Node.js, NestJS, Java, e outras tecnologias.</p>
+    </section>
 
-        <section id="servicos">
-            <div class="container">
-                <h2>Serviços</h2>
-                <div class="service">
-                    <h3>Desenvolvimento Web</h3>
-                    <p>Criação de websites responsivos e modernos utilizando as mais recentes tecnologias web.</p>
-                </div>
-                <div class="service">
-                    <h3>Design de Interface</h3>
-                    <p>Desenvolvimento de interfaces de usuário intuitivas e atraentes para melhorar a experiência do usuário.</p>
-                </div>
-                <div class="service">
-                    <h3>Consultoria em Tecnologia</h3>
-                    <p>Assistência técnica e consultoria para ajudá-lo a encontrar as melhores soluções tecnológicas para o seu negócio.</p>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <!-- Projetos serão inseridos aqui via JavaScript -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:igorcampos09@hotmail.com">igorcampos09@hotmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/igorcamposm/" target="_blank">Igor Campos</a></p>
+    </section>
 
     <footer>
-        <div class="container">
-            <section id="contato">
-                <h2>Contato</h2>
-                <p>Entre em contato através das redes sociais ou envie-me um e-mail.</p>
-                <nav id="icons">
-                    <a href="https://www.facebook.com/igor.camposmelo.1" target="_blank"><img src="./img/iconfacebook.png" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/igu.cm/" target="_blank"><img src="./img/iconinstagram.png" alt="Instagram"></a>
-                    <a href="https://www.linkedin.com/in/igor-campos-abb770210/" target="_blank"><img src="./img/iconlinkedin.png" alt="LinkedIn"></a>
-                    <a href="mailto:igorcampos@example.com"><img src="./img/iconemail.png" alt="E-mail"></a>
-                </nav>
-            </section>
-        </div>
+        <p>&copy; 2025 Igor Campos</p>
     </footer>
+
+    <script src="./projects.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,74 @@
+/* Estilo Minimalista Aprimorado */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.avatar {
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projeto {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
