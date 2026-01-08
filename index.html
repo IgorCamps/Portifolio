@@ -7,6 +7,8 @@
     <title>DevClub | Portifólio</title>
   </head>
   <body>
+    <div class="particulas"></div>
+
     <nav class="navegacao">
       <ul class="menu">
         <li>
@@ -76,9 +78,9 @@
           <div class="caixa-textos-projeto">
             <h3 class="info-projetos">Microsoft</h3>
             <p class="paragrafo-projetos">
-            Loja virtual moderna com animações e design responsivo para uma
-            experiência de compra agradável.
-          </p>
+              Loja virtual moderna com animações e design responsivo para uma
+              experiência de compra agradável.
+            </p>
           </div>
         </div>
       </div>
@@ -86,18 +88,42 @@
 
     <section id="contatos" class="contatos">
       <h2 class="contatos-titulo">Entre em Contato</h2>
-      <form class="formulario-contato" id="formulario">
+
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onsubmit="enviarWhats(event)"
+      >
         <div class="grupo-form">
-          <input placeholder="Nome" class="campo-form" />
+          <input placeholder="Nome" class="campo-form" id="nome" />
         </div>
         <div class="grupo-form">
           <textarea
             placeholder="Digite sua Mensagem"
             class="campo-form"
+            rows="4"
+            id="mensagem"
           ></textarea>
         </div>
         <button type="submit" class="botao-form">Enviar WhatsApp</button>
       </form>
     </section>
+
+    <script>
+      function enviarWhats(event) {
+        event.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const mensagem = document.getElementById('mensagem').value;
+        const telefone = '5573988572192';
+
+        const text = `Olá! Me chamo ${nome}, ${mensagem}`;
+
+        const msgFormatada = encodeURIComponent(text);
+        const url = `https://whatsa.me/${telefone}/?t=${msgFormatada}`;
+
+        window.open(url, '_blank');
+      }
+    </script>
   </body>
 </html>
