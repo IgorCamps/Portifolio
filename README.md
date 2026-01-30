@@ -11,16 +11,7 @@ Bem-vindo ao meu portfólio! Aqui você encontra alguns dos projetos que desenvo
 
 ## 📁 Projetos
 
-Aqui estão alguns dos meus projetos favoritos:
-//Em andamento
-1. **[Projeto 1](link-do-repositorio)**  
-   *Descrição breve do projeto, tecnologias usadas e funcionalidades principais.*
-
-2. **[Projeto 2](link-do-repositorio)**  
-   *Outra descrição breve.*
-
-3. **[Projeto 3](link-do-repositorio)**  
-   *Mais uma descrição breve.*
+Aqui estão alguns dos meus projetos favoritos, também existe diversos repositórios com projetos próprios ou de cursos!
 
 ## 📈 Estatísticas do GitHub
 
@@ -30,10 +21,6 @@ Aqui estão alguns dos meus projetos favoritos:
 
 - **Email:** igorcampos09@hotmail.com
 - **LinkedIn:** [Igor Campos](https://www.linkedin.com/in/igorcamposm/)  
-//em andamento
-- **Portfólio:** [](https://seusite.com)  
-
-Fique à vontade para entrar em contato!
 
 ---
 

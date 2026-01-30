@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>DevClub | Portifólio</title>
+    <title>Igor Campos | Portifólio</title>
   </head>
   <body>
     <div class="particulas"></div>
@@ -48,13 +48,15 @@
       <h2 class="projetos-titulo">Meus Projetos</h2>
       <div class="projetos-caixa">
         <div class="projetos-card">
-          <img src="./img/carro.jpg" alt="Projeto 1" class="projeto-imagem" />
+          <img src="./img/controle-de-gastos.png" alt="Projeto 1" class="projeto-imagem" />
           <div class="caixa-textos-projeto">
-            <h3 class="info-projetos">Loja de carros</h3>
-            <p class="paragrafo-projetos">
-              Um aplicativo web que permite aos usuários criar, editar e
-              gerenciar suas tarefas diárias de forma eficiente.
-            </p>
+            <h3 class="info-projetos">Gerenciador de Gastos</h3>
+            <a href="https://github.com/IgorCamps/Portifolio.git" target="_blank">
+              <p class="paragrafo-projetos">
+                Um aplicativo web que permite aos usuários criar, editar e
+                gerenciar suas tarefas diárias de forma eficiente.
+              </p>
+            </a>
           </div>
         </div>
 
@@ -109,21 +111,6 @@
       </form>
     </section>
 
-    <script>
-      function enviarWhats(event) {
-        event.preventDefault();
-
-        const nome = document.getElementById('nome').value;
-        const mensagem = document.getElementById('mensagem').value;
-        const telefone = '5573988572192';
-
-        const text = `Olá! Me chamo ${nome}, ${mensagem}`;
-
-        const msgFormatada = encodeURIComponent(text);
-        const url = `https://whatsa.me/${telefone}/?t=${msgFormatada}`;
-
-        window.open(url, '_blank');
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
