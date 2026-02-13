@@ -1,116 +1,107 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Igor Campos | Portifólio</title>
-  </head>
-  <body>
-    <div class="particulas"></div>
 
-    <nav class="navegacao">
-      <ul class="menu">
-        <li>
-          <a href="#inicio" class="menu-link">Início</a>
-        </li>
-        <li>
-          <a href="#sobre" class="menu-link">Sobre</a>
-        </li>
-        <li>
-          <a href="#projetos" class="menu-link">Projetos</a>
-        </li>
-        <li>
-          <a href="#contatos" class="menu-link">Contatos</a>
-        </li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Igor Campos | Portifólio</title>
+</head>
 
-    <main id="inicio" class="cabecalho">
-      <img src="./img/igor.png" alt="Foto de Igor" class="foto-perfil" />
-      <h1>Igor Campos</h1>
-      <p class="cabecalho-subtitulo">Desenvolvedor Full Stack</p>
-    </main>
+<body>
+  <div class="particulas"></div>
 
-    <section id="sobre" class="sobre">
-      <h1 id="sobre-titulo">Sobre Mim</h1>
-      <div class="sobre-caixa">
-        <p class="sobre-paragrafo">
-          Olá! Meu nome é Igor Campos, tenho 23 anos e sou um desenvolvedor Full
-          Stack. Atualmente, estou cursando Ciência da Computação na UESC. Tenho
-          paixão por tecnologia e adoro criar soluções inovadoras através da
-          programação.
-        </p>
-      </div>
-    </section>
+  <nav class="navegacao">
+    <ul class="menu">
+      <li>
+        <a href="#inicio" class="menu-link">Início</a>
+      </li>
+      <li>
+        <a href="#sobre" class="menu-link">Sobre</a>
+      </li>
+      <li>
+        <a href="#projetos" class="menu-link">Projetos</a>
+      </li>
+      <li>
+        <a href="#contatos" class="menu-link">Contatos</a>
+      </li>
+    </ul>
+  </nav>
 
-    <section id="projetos" class="projetos">
-      <h2 class="projetos-titulo">Meus Projetos</h2>
-      <div class="projetos-caixa">
-        <div class="projetos-card">
+  <main id="inicio" class="cabecalho">
+    <img src="./img/igor.png" alt="Foto de Igor" class="foto-perfil" />
+    <h1>Igor Campos</h1>
+    <p class="cabecalho-subtitulo">Desenvolvedor Full Stack</p>
+  </main>
+
+  <section id="sobre" class="sobre">
+    <h1 id="sobre-titulo">Sobre Mim</h1>
+    <div class="sobre-caixa">
+      <p class="sobre-paragrafo">
+        Olá! Meu nome é Igor Campos, tenho 23 anos e sou um desenvolvedor Full
+        Stack. Atualmente, estou cursando Ciência da Computação na UESC. Tenho
+        paixão por tecnologia e adoro criar soluções inovadoras através da
+        programação.
+      </p>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-caixa">
+
+      <div class="projetos-card">
+        <a href="https://github.com/IgorCamps/Portifolio.git" target="_blank">
           <img src="./img/controle-de-gastos.png" alt="Projeto 1" class="projeto-imagem" />
           <div class="caixa-textos-projeto">
             <h3 class="info-projetos">Gerenciador de Gastos</h3>
-            <a href="https://github.com/IgorCamps/Portifolio.git" target="_blank">
-              <p class="paragrafo-projetos">
-                Um aplicativo web que permite aos usuários criar, editar e
-                gerenciar suas tarefas diárias de forma eficiente.
-              </p>
-            </a>
-          </div>
-        </div>
-
-        <div class="projetos-card">
-          <img src="./img/viagem.jpg" alt="Projeto 2" class="projeto-imagem" />
-          <div class="caixa-textos-projeto">
-            <h3 class="info-projetos">Página de viagens</h3>
             <p class="paragrafo-projetos">
-              Uma página interativa com roteiros de viagens, dicas e fotos para
-              inspirar os usuários a explorar novos destinos.
+              Um aplicativo web que permite aos usuários criar, editar e
+              gerenciar suas tarefas diárias de forma eficiente.
             </p>
-          </div>
-        </div>
-
-        <div class="projetos-card">
-          <img
-            src="./img/microsoft.png"
-            alt="Projeto 3"
-            class="projeto-imagem"
-          />
-          <div class="caixa-textos-projeto">
-            <h3 class="info-projetos">Microsoft</h3>
-            <p class="paragrafo-projetos">
-              Loja virtual moderna com animações e design responsivo para uma
-              experiência de compra agradável.
-            </p>
-          </div>
-        </div>
+        </a>
       </div>
-    </section>
+    </div>
 
-    <section id="contatos" class="contatos">
-      <h2 class="contatos-titulo">Entre em Contato</h2>
+    <div class="projetos-card">
+      <img src="./img/viagem.jpg" alt="Projeto 2" class="projeto-imagem" />
+      <div class="caixa-textos-projeto">
+        <h3 class="info-projetos">Página de viagens</h3>
+        <p class="paragrafo-projetos">
+          Uma página interativa com roteiros de viagens, dicas e fotos para
+          inspirar os usuários a explorar novos destinos.
+        </p>
+      </div>
+    </div>
 
-      <form
-        class="formulario-contato"
-        id="formulario"
-        onsubmit="enviarWhats(event)"
-      >
-        <div class="grupo-form">
-          <input placeholder="Nome" class="campo-form" id="nome" />
-        </div>
-        <div class="grupo-form">
-          <textarea
-            placeholder="Digite sua Mensagem"
-            class="campo-form"
-            rows="4"
-            id="mensagem"
-          ></textarea>
-        </div>
-        <button type="submit" class="botao-form">Enviar WhatsApp</button>
-      </form>
-    </section>
+    <div class="projetos-card">
+      <img src="./img/microsoft.png" alt="Projeto 3" class="projeto-imagem" />
+      <div class="caixa-textos-projeto">
+        <h3 class="info-projetos">Microsoft</h3>
+        <p class="paragrafo-projetos">
+          Loja virtual moderna com animações e design responsivo para uma
+          experiência de compra agradável.
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <section id="contatos" class="contatos">
+    <h2 class="contatos-titulo">Entre em Contato</h2>
+
+    <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+      <div class="grupo-form">
+        <input placeholder="Nome" class="campo-form" id="nome" />
+      </div>
+      <div class="grupo-form">
+        <textarea placeholder="Digite sua Mensagem" class="campo-form" rows="4" id="mensagem"></textarea>
+      </div>
+      <button type="submit" class="botao-form">Enviar WhatsApp</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
